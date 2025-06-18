@@ -13,9 +13,9 @@ from pathlib import Path
 from process_design import *
 
 # IMPORTANT: Replace these with your actual GCP Project ID, Region, and GCS Bucket.
-PROJECT_ID = "hacker2025-team-97-dev" # e.g., "my-awesome-project-12345"
-REGION = "us-central1"              # e.g., "us-central1", "europe-west4"
-GCS_BUCKET_NAME = "hacker2025-team-97-dev.appspot.com" # e.g., "my-reåquirements-bucket"
+PROJECT_ID = "hacker2025-team-97-dev" 
+REGION = "us-central1"              
+GCS_BUCKET_NAME = "hacker2025-team-97-dev.appspot.com" 
 
 storage_client = storage.Client(project=PROJECT_ID)
 SOURCE_REQUIREMENT_FOLDER = "source documents/"
@@ -25,8 +25,7 @@ genai = ChatGoogleGenerativeAI(
     temperature=0,
     max_tokens=None,
     timeout=None,
-    max_retries=2,
-    google_api_key = "AIzaSyDG8Azu4oGygUqs2-A_QECBDKIH9fSWkdg"
+    max_retries=2
 )
 
 # ----- File download from GCS -----

@@ -3,7 +3,6 @@ from google.cloud import storage
 import base64
 import json
 
-genai.configure(api_key="AIzaSyDG8Azu4oGygUqs2-A_QECBDKIH9fSWkdg")  # or use ADC if running on GCP
 
 model = genai.GenerativeModel("gemini-1.5-pro")
 
