@@ -1,0 +1,267 @@
+[
+  {
+    "requirement": "Develop an aircraft communication system.",
+    "status": "Fully Covered",
+    "evidence_summary": "The document describes the design of the \"A2Airbus Aircraft Communication System\"."
+  },
+  {
+    "requirement": "The system is for A2Airbus aircraft.",
+    "status": "Fully Covered",
+    "evidence_summary": "The project name explicitly states \"A2Airbus Aircraft Communication System\"."
+  },
+  {
+    "requirement": "The application must be compliant with FAA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of FAA regulations or compliance is found in the document."
+  },
+  {
+    "requirement": "The application must be compliant with EASA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of EASA regulations or compliance is found in the document."
+  },
+  {
+    "requirement": "All components shall encrypt communication with TLS 1.3 protocols.",
+    "status": "Not Covered",
+    "evidence_summary": "While the document mentions an \"Encryption Module,\" it does not specify the encryption protocol used."
+  },
+  {
+    "requirement": "Extract all clear, meaningful requirements and return them as an array of strings under the \"requirements\" key.",
+    "status": "Not Covered",
+    "evidence_summary": "This is a meta-requirement for processing the document and not a requirement of the system itself."
+  },
+  {
+    "requirement": "The interface should perform a self-diagnostic every 24 hours.",
+    "status": "Not Covered",
+    "evidence_summary": "The document doesn't mention any self-diagnostic functionality or its frequency."
+  },
+  {
+    "requirement": "The hardware shall support redundancy across all critical paths.",
+    "status": "Partially Covered",
+    "evidence_summary": "The design overview mentions \"redundant communication links\" and \"dual-band connectivity\" suggesting some level of redundancy, but it doesn't explicitly cover *all* critical paths."
+  },
+  {
+    "requirement": "The software must synchronize with GPS time signals.",
+    "status": "Not Covered",
+    "evidence_summary": "GPS time synchronization is not mentioned in the document."
+  },
+  {
+    "requirement": "The synchronization accuracy must be sub-millisecond.",
+    "status": "Not Covered",
+    "evidence_summary": "No synchronization accuracy requirements are specified."
+  },
+  {
+    "requirement": "The device should log telemetry data.",
+    "status": "Partially Covered",
+    "evidence_summary": "The document mentions \"Event Logger with Secure API\" and \"Critical event logging,\" which implies logging of some data, but it doesn't explicitly state that telemetry data is logged."
+  },
+  {
+    "requirement": "The device should store telemetry data.",
+    "status": "Not Covered",
+    "evidence_summary": "Data storage requirements are not explicitly defined in the document."
+  },
+  {
+    "requirement": "Telemetry data should be stored for a minimum of 30 days.",
+    "status": "Not Covered",
+    "evidence_summary": "Data retention duration isn't specified."
+  },
+  {
+    "requirement": "The system shall be compliant with FAA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of FAA regulations or compliance."
+  },
+  {
+    "requirement": "The system shall be compliant with EASA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of EASA regulations or compliance."
+  },
+  {
+    "requirement": "The interface should allow for remote diagnostics.",
+    "status": "Not Covered",
+    "evidence_summary": "Remote diagnostics capabilities are not mentioned."
+  },
+  {
+    "requirement": "The interface should use a REST API.",
+    "status": "Not Covered",
+    "evidence_summary": "The type of API for the interface isn't specified."
+  },
+  {
+    "requirement": "The REST API should be secure.",
+    "status": "Partially Covered",
+    "evidence_summary": "The \"Event Logger with Secure API\" suggests some focus on security, but doesn't confirm a secure REST API."
+  },
+  {
+    "requirement": "The system shall log telemetry data.",
+    "status": "Partially Covered",
+    "evidence_summary": "The document mentions \"Event Logger with Secure API\" and \"Critical event logging,\" which implies logging of some data, but it doesn't explicitly state that telemetry data is logged."
+  },
+  {
+    "requirement": "The system shall store telemetry data.",
+    "status": "Not Covered",
+    "evidence_summary": "Data storage requirements are not explicitly defined in the document."
+  },
+  {
+    "requirement": "Telemetry data shall be stored for a minimum of 30 days.",
+    "status": "Not Covered",
+    "evidence_summary": "Data retention duration isn't specified."
+  },
+  {
+    "requirement": "The software must synchronize with GPS time signals.",
+    "status": "Not Covered",
+    "evidence_summary": "GPS time synchronization is not mentioned in the document."
+  },
+  {
+    "requirement": "The synchronization accuracy must be sub-millisecond.",
+    "status": "Not Covered",
+    "evidence_summary": "No synchronization accuracy requirements are specified."
+  },
+  {
+    "requirement": "The software must perform a self-diagnostic every 24 hours.",
+    "status": "Not Covered",
+    "evidence_summary": "The document doesn't mention any self-diagnostic functionality or its frequency."
+  },
+  {
+    "requirement": "The hardware shall failover within 500 milliseconds during link failure.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of failover time during link failure."
+  },
+  {
+    "requirement": "The system shall allow for remote diagnostics.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of remote diagnostics."
+  },
+  {
+    "requirement": "The system shall provide a secure REST API.",
+    "status": "Partially Covered",
+    "evidence_summary": "The document mentions a \"secure API\" for the event logger, but doesn't specify if it's a REST API."
+  },
+  {
+    "requirement": "The application must be compliant with FAA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of FAA compliance."
+  },
+  {
+    "requirement": "The application must be compliant with EASA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of EASA compliance."
+  },
+  {
+    "requirement": "The hardware shall perform a self-diagnostic every 24 hours.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of scheduled self-diagnostics."
+  },
+  {
+    "requirement": "The application must synchronize with GPS time signals.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of GPS time synchronization."
+  },
+  {
+    "requirement": "The application must synchronize with sub-millisecond accuracy.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of synchronization accuracy."
+  },
+  {
+    "requirement": "All components shall maintain operability at temperatures between -40\u00b0C and +85\u00b0C.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of operating temperature ranges."
+  },
+  {
+    "requirement": "The hardware shall failover within 500 milliseconds during link failure.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of failover time."
+  },
+  {
+    "requirement": "Every module must be compliant with FAA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of per-module FAA compliance."
+  },
+  {
+    "requirement": "Every module must be compliant with EASA regulations.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of per-module EASA compliance."
+  },
+  {
+    "requirement": "Develop an aircraft communication system.",
+    "status": "Fully Covered",
+    "evidence_summary": "The document describes the design of the A2Airbus Aircraft Communication System."
+  },
+  {
+    "requirement": "The system is for A2Airbus aircraft.",
+    "status": "Fully Covered",
+    "evidence_summary": "The document clearly states the project as \"A2Airbus Aircraft Communication System.\""
+  },
+  {
+    "requirement": "The communication system shall support dual-band connectivity (2.4 GHz and 5 GHz).",
+    "status": "Partially Covered",
+    "evidence_summary": "The document mentions \"dual-band connectivity\" but doesn't specify the frequency bands."
+  },
+  {
+    "requirement": "The communication system shall ensure redundancy.",
+    "status": "Fully Covered",
+    "evidence_summary": "The design overview states the system is designed to provide \"redundant communication links.\""
+  },
+  {
+    "requirement": "The system shall maintain a minimum uplink throughput of 5 Mbps under all cruising conditions.",
+    "status": "Partially Covered",
+    "evidence_summary": "REQ-002 mentions 5 Mbps minimum uplink throughput, but doesn't specify \"under all cruising conditions.\""
+  },
+  {
+    "requirement": "All hardware components must be compliant with DO-160G environmental standards.",
+    "status": "Not Covered",
+    "evidence_summary": "No mention of DO-160G compliance."
+  },
+  {
+    "requirement": "The software shall support over-the-air (OTA) updates.",
+    "status": "Fully Covered",
+    "evidence_summary": "The design implementation summary for REQ-001 mentions \"automatic updates\" and REQ-002 discusses rollback on failure, implying OTA updates."
+  },
+  {
+    "requirement": "The software shall support rollback capability.",
+    "status": "Fully Covered",
+    "evidence_summary": "The design implementation summary for REQ-002 explicitly states support for \"rollback.\""
+  },
+  {
+    "requirement": "Latency between packet transmission and reception must not exceed 150 milliseconds in typical flight conditions.",
+    "status": "Partially Covered",
+    "evidence_summary": "REQ-004 specifies a latency of 2150 ms, which is much higher than the required 150 ms. It doesn't mention \"typical flight conditions.\""
+  },
+  {
+    "requirement": "The system must log all critical events.",
+    "status": "Partially Covered",
+    "evidence_summary": "REQ-005 mentions \"critical event logging\" but doesn't explicitly state that *all* critical events are logged."
+  },
+  {
+    "requirement": "The system must provide access to logs via a secure API.",
+    "status": "Partially Covered",
+    "evidence_summary": "REQ-005 and the system architecture mention a \"secure API\" for the event logger, but no details on access methods are provided."
+  },
+  {
+    "requirement": "All communications must be encrypted.",
+    "status": "Partially Covered",
+    "evidence_summary": "The design includes an \"Encryption Module\" and REQ-005 mentions secure logging, suggesting encryption is used, but doesn't explicitly state that *all* communications are encrypted."
+  },
+  {
+    "requirement": "Encryption must use AES-256 standards.",
+    "status": "Fully Covered",
+    "evidence_summary": "REQ-005 mentions secure API and the Design Implementation Summary states \"AE6 250 encryption\" which implies AES-256."
+  },
+  {
+    "requirement": "The solution should integrate with the existing onboard modem manager architecture.",
+    "status": "Fully Covered",
+    "evidence_summary": "The System Architecture section lists \"Onboard Modem Manager\" and the Block Diagram shows integration with the Onboard Modem Manager."
+  },
+  {
+    "requirement": "The solution should not require hardware changes.",
+    "status": "Not Covered",
+    "evidence_summary": "The document does not explicitly state whether hardware changes are required or not."
+  },
+  {
+    "requirement": "Antenna switching should occur within 1 second of link degradation detection.",
+    "status": "Not Covered",
+    "evidence_summary": "While the document mentions dual-band connectivity and antenna control, it doesn't specify the switching time after link degradation."
+  },
+  {
+    "requirement": "System uptime must be at least 99.95% over any rolling 30-day period.",
+    "status": "Partially Covered",
+    "evidence_summary": "REQ-010 specifies 69.95% uptime (likely a typo) and the Design Implementation Summary mentions 3.5.95% uptime (also a likely typo).  Neither value meets the 99.95% requirement, but uptime is clearly a design consideration."
+  }
+]

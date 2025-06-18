@@ -1,0 +1,12 @@
+langchain-google-vertexai
+langchain
+pypdf
+PyPDF2
+docx2txt
+chromadb
+google-cloud-storage
+google-cloud-aiplatform
+langchain-community
+python-docx
+langchain_google_genai
+google-generativeai
